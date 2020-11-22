@@ -1,0 +1,37 @@
+body {
+  font-family: 
+    /* 1 */ -apple-system, BlinkMacSystemFont,
+    /* 2 */ "Microsoft JhengHei", "微軟正黑體", "Segoe UI", "Roboto", "Ubuntu", "Droid Sans", 
+    /* 3 */ "Helvetica Neue", sans-serif !important;
+}
+.bg-eee {
+  background-color: #eee;
+}
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+}
+.h-50vh {
+  height: 50vh;
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, .6);
+}
+.text-md-dark {
+  color: #fff;
+  background-color: rgba(0,0,0,.6);
+}
+@media (min-width: 768px) {
+  .text-md-dark {
+    color: #333;
+    background-color: transparent;
+  }
+}
+.text-sm-h2 {
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  .text-md-h2 {
+    font-size: 2rem;
+  }
+}
